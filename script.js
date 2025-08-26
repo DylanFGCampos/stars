@@ -27,10 +27,11 @@ function createStar() {
 }
 
 function showInvitation() {
-    message.textContent = "Parabéns Fabiana! Você encontrou todas as estrelas e ganhou um encontro comigo. Uhuuuul!!! Volte agora para o direct do instagram para podermos marcar.";
+    message.textContent = "Parabéns! Você encontrou todas as estrelas e ganhou um encontro comigo. Uhuuuul!!! Volte agora para o direct do instagram para podermos marcar.";
 }
 
 // Criar estrelas
 for (let i = 0; i < numStars; i++) {
     createStar();
 }
+
