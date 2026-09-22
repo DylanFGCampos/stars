@@ -7,8 +7,8 @@ function createStar() {
     const star = document.createElement('div');
     star.classList.add('star');
 
-    // Definindo posições aleatórias
-    const randomX = Math.random() * 90; // Para garantir que a estrela fique dentro da tela
+    
+    const randomX = Math.random() * 90; 
     const randomY = Math.random() * 90;
 
     star.style.position = 'absolute';
@@ -30,7 +30,7 @@ function showInvitation() {
     message.textContent = "Parabéns! Você encontrou todas as estrelas e ganhou um encontro comigo. Uhuuuul!!! Volte agora para o direct do instagram para podermos marcar.";
 }
 
-// Criar estrelas
+
 for (let i = 0; i < numStars; i++) {
     createStar();
 }
